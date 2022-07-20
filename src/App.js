@@ -1,11 +1,14 @@
 import React from 'react';
+import Header from './components/Header';
 
 class App extends React.Component {
   render() {
-    return (<p>Sistema Solar</p>);
+    return (
+      <Header />
+    );
   }
 }
 
-//VQV!
+// VQV!
 
 export default App;
